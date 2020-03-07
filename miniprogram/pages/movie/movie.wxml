@@ -9,5 +9,6 @@
       <text wx:for="{{item.casts}}" wx:key="index">{{item}} </text>
     </view>
     <view>收藏：{{item.star}} </view>
+    <button class="movie-comment" size="mini" bindtap="gotoComment" data-movieid="{{item.id}}" data-movietitle="{{item.title}}" data-moviecover="{{item.cover}}">评价</button>
   </view>
 </view>

@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/movie/movie",
+    "pages/comment/comment",
     "pages/user/user"
   ],
   "window": {

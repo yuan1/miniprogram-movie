@@ -26,6 +26,11 @@ Page({
       console.error(err)
     })
   },
+  gotoComment(event){
+    wx.navigateTo({
+      url: `../comment/comment?movieid=${event.target.dataset.movieid}&movietitle=${event.target.dataset.movietitle}&moviecover=${event.target.dataset.moviecover}`,
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

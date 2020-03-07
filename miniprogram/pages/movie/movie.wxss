@@ -18,3 +18,8 @@
 .movie-rate{
   color:#faaf00;
 }
+.movie-comment{
+  margin-top: 8px;
+  color: #fff;
+  background-color: #faaf00
+}
