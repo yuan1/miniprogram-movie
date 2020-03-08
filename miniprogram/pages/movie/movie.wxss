@@ -1,25 +1,42 @@
-.movie{
+.movie {
   padding: 10px;
   border-bottom: 1px solid #e5e5e5;
-  display: flex
+  display: flex;
 }
-.movie-img{
+
+.movie-img {
   width: 300rpx;
   height: 400rpx;
-  object-fit: cover
+  object-fit: cover;
 }
-.movie-info{
+
+.movie-info {
   flex: 1;
-  margin-left: 8px
+  margin-left: 8px;
 }
-.movie-title{
+
+.movie-title {
   font-size: 50rpx;
 }
-.movie-rate{
-  color:#faaf00;
+
+.movie-rate {
+  color: #faaf00;
 }
-.movie-comment{
+
+.movie-comment {
   margin-top: 8px;
   color: #fff;
-  background-color: #faaf00
+  background-color: #faaf00;
+}
+
+/* 返回顶部 */
+
+.goTop {
+  height: 80rpx;
+  width: 80rpx;
+  position: fixed;
+  bottom: 50rpx;
+  background: rgba(0, 0, 0, 0.2);
+  right: 30rpx;
+  border-radius: 50%;
 }

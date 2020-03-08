@@ -1,1 +1,23 @@
-/* miniprogram/pages/user/user.wxss */
+.user {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350rpx;
+  background: #f53623;
+  color: #fff;
+}
+
+.user-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+}
+
+.user-name {
+  margin: 8px 0;
+}

@@ -12,3 +12,4 @@
     <button class="movie-comment" size="mini" bindtap="gotoComment" data-movieid="{{item.id}}" data-movietitle="{{item.title}}" data-moviecover="{{item.cover}}">评价</button>
   </view>
 </view>
+<image src='../../images/button-top.png' class='goTop' hidden='{{!floorstatus}}' bindtap="goTop"></image>
